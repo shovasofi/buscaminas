@@ -4,7 +4,8 @@ function probar(){
     var matriz= crear_matriz(8,8);
     introducir_bombas(matriz,15);
     asignar_valores(matriz);
-    print_matriz_html(matriz);
+    //print_matriz_html(matriz);
+    crear_tabla(matriz);
     
 
 
